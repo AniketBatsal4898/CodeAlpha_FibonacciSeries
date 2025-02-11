@@ -4,9 +4,10 @@
 # CODE:-
 firstnum = 0
 secondnum = 1
+y = int(input('Enter number of terms : '))
 print(firstnum)
 print(secondnum)
-for i in range(1, 20):
+for i in range(1, y):
     nextnum = firstnum + secondnum
     print(nextnum, end='  ')
     firstnum = secondnum
